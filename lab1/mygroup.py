@@ -35,7 +35,7 @@ def results(students, threshold):
     print(f"\nстуденты: {len(students)}")
     print("=" * 60)
     for idx, s in enumerate(students, 1):
-        print(f"{idx}. {s['surname']} {s['name']:15} | средний балл {s['avg']}:.2f")
+        print(f"{idx}. {s['surname']} {s['name']:15} | средний балл {s['avg']:.2f"})
 
 if __name__ == "__main__":
     try:
